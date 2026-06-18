@@ -1,3 +1,4 @@
 target/
 exercises/progress.db
 .vscode/
+.idea

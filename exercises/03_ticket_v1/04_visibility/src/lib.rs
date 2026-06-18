@@ -2,7 +2,7 @@ mod ticket {
     pub struct Ticket {
         pub(super) title: String,
         pub(super) description: String,
-        status: String,
+        pub(super) status: String,
     }
 
     impl Ticket {
