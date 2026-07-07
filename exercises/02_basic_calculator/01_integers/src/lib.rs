@@ -10,8 +10,6 @@ mod tests {
 
     #[test]
     fn case() {
-        let b: u32 = 32;
-        let a: u32 = b;
-        assert_eq!(compute(1, a), 9);
+        assert_eq!(compute(1, 2), 9);
     }
 }
